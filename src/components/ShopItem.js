@@ -14,7 +14,7 @@ class ShopItem extends Component {
         </div>
         <div className="divider"></div>
         <div className="purchase-info">
-          <div className="price">{`${this.props.item.currency}${this.props.item.price}`}</div>
+          <div className="price">{`${this.props.item.currency}${this.props.item.price}.00`}</div>
           <button>Добавить в корзину</button>
         </div>
       </div>
